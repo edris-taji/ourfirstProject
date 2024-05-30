@@ -1,0 +1,167 @@
+body {
+    text-align: center;
+    margin: 0px;
+    background-color: rgb(228 253 253 / 10%);
+}
+
+.first-section {
+    margin: 0px;
+    background-color: rgb(228, 253, 253);
+}
+
+.cloud1,
+.cloud2 {
+    width: 100px;
+    position: absolute;
+}
+
+.cloud1 {
+    left: 100px;
+    top: 300px;
+}
+
+.cloud2 {
+    right: 100px;
+    top: 50px;
+}
+
+.mountain {
+    width: 800px;
+    position: relative;
+    margin-left: 100px;
+}
+
+h1,
+h2 {
+    color: #62BFBF;
+    padding: 10px;
+    font-size: 2rem;
+}
+
+p {
+    color: #40514E;
+    font-size: 1.2rem;
+    line-height: 2;
+}
+
+h3 {
+    font-size: 1.6rem;
+    color: #62BFBF;
+}
+
+.h1 {
+    margin: 0px;
+    padding-top: 100px;
+    font-size: 4rem;
+    font-family: Segoe Script;
+}
+
+.second-section {
+    width: 30%;
+    margin: 30px auto 30px auto;
+}
+
+hr {
+    border: 6px dotted #ace4e4;
+    border-bottom: 0px;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.my-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    padding-top: 10px;
+}
+
+.bottom-container {
+    padding: 50px 0 20px;
+    background-color: #00BCD4;
+}
+
+.bottom-container a {
+    color: #fff;
+    margin: 30px 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.bottom-container a:hover {
+    text-decoration: underline;    
+}
+
+.copy-right {
+    color: rgb(253, 253, 253);
+    font-size: 20px;
+    padding: 20px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    line-height: 2;
+    text-align: left;
+}
+
+.my-skill-1 {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.my-skill-2 {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.skill-p-1 {
+    clear: left;
+}
+
+.contact-me {
+    width: 40%;
+    margin: 40px auto 40px auto;
+}
+
+.btn-contact a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.btn-contact {
+    position: relative;
+    background-color: rgb(91, 194, 253);
+    border: none;
+    font-size: 20px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.btn-contact:after {
+    content: "";
+    background: rgb(242, 243, 239);
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.btn-contact:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
